@@ -1,9 +1,10 @@
 const closed = document.getElementById(".close-popup");
-closed.addEventListener("click", function name(params) {
-  document.getElementById("popup").style.display = "none";
-  document.body.style = "overflow: auto";
-});
-
+if (closed) {
+  closed.addEventListener("click", function name() {
+    document.getElementById("popup").style.display = "none";
+    document.body.style = "overflow: auto";
+  });
+}
 const openButtons = document.querySelectorAll(".open-popup");
 openButtons.forEach((button) => {
   button.addEventListener("click", function () {
@@ -13,8 +14,8 @@ openButtons.forEach((button) => {
 });
 
 const continuetobook = document.getElementById("continuetobook");
-continuetobook.addEventListener("click", function name(params) {
-  window.location.href = 'ThanhToan.html';
+continuetobook.addEventListener("click", function name() {
+  window.location.href = "ThanhToan.html";
 });
 
 const popupChosseContent = document.querySelectorAll(".popupChosseContent");
