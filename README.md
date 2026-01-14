@@ -8,7 +8,7 @@
 
 ## 📖 Tổng quan
 
-`VeMayBay` là một dự án web tĩnh được thiết kế để giới thiệu giao diện người dùng cơ bản cho hệ thống đặt vé máy bay trực tuyến. Được xây dựng hoàn toàn bằng HTML, CSS và JavaScript thuần, dự án này mô phỏng các bước cốt lõi từ tìm kiếm chuyến bay, chọn vé, cung cấp thông tin hành khách đến giao diện thanh toán.
+`Airplane Ticket` là một dự án web tĩnh được thiết kế để giới thiệu giao diện người dùng cơ bản cho hệ thống đặt vé máy bay trực tuyến. Được xây dựng hoàn toàn bằng HTML, CSS và JavaScript thuần, dự án này mô phỏng các bước cốt lõi từ tìm kiếm chuyến bay, chọn vé, cung cấp thông tin hành khách đến giao diện thanh toán.
 
 ## ✨ Tính năng
 
@@ -16,7 +16,6 @@
 - ✈️ **Danh sách & Lựa chọn chuyến bay:** Hiển thị các lựa chọn chuyến bay hiện có, cho phép người dùng chọn chuyến bay phù hợp.
 - 🛒 **Quy trình đặt vé:** Hướng dẫn người dùng qua các bước chọn vé và nhập thông tin hành khách.
 - 💳 **Trang mô phỏng thanh toán:** Một trang riêng biệt để mô phỏng quy trình thanh toán cho các chuyến bay đã chọn.
-- 🎨 **Thiết kế tương thích (Responsive):** Các kiểu dáng cơ bản giúp đảm bảo khả năng sử dụng trên các thiết bị khác nhau.
 
 ## 🛠️ Công nghệ sử dụng
 
@@ -39,7 +38,7 @@ Dự án này là một trang web tĩnh và không yêu cầu bất kỳ bước
 1. **Sao chép kho lưu trữ (Clone)**
 
 ```bash
-git clone https://github.com/tuanvuchu/VeMayBay.git
+git clone https://github.com/tuanvuchu/AirplaneTicket.git
 cd VeMayBay
 ```
 
@@ -49,7 +48,7 @@ cd VeMayBay
 ## 📁 Cấu trúc dự án
 
 ```
-VeMayBay/
+AirplaneTicket/
 ├── css/                 # Chứa tất cả các tệp CSS của dự án
 │   └── [style-files].css
 ├── image/               # Lưu trữ tất cả tài nguyên hình ảnh
